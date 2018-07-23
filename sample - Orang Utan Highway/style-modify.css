@@ -1,0 +1,93 @@
+/*
+https://coolors.co/5b4b49-db93b0-f7bfb4-7daf9c-23967f
+https://coolors.co/1a535c-4ecdc4-f7fff7-ff6b6b-ffe66d
+*/
+
+html, body{
+   height:100%;
+}
+
+.sec{
+    min-height:100%;
+	padding: 50px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+nav{
+	background-color:rgba(59,65,60,0.7);
+}
+
+.nav-link, .navbar-brand, .navbar-toggler-icon, footer p a{
+    color:#94D1BE;
+}
+.nav-link:hover, .navbar-brand:hover, footer p a:hover{
+    color:#FFFFFF;
+}
+
+#banner{
+	color:#94D1BE;
+}
+.bg-image{
+    min-height: 100%;
+    background: linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('images/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.characteristics{
+    letter-spacing: 6px;
+}
+
+.motto{
+    font-style: italic;
+    font-size: 140%;
+}
+
+a.logo{
+	color:#94D1BE;
+	margin:15px;
+}
+
+
+#video{
+	background-color:#DAF0EE;
+	color:#3B413C;
+}
+
+.more-space-bottom{
+    margin-bottom: 100px;
+}
+
+#about{
+	background-color:white;
+	color:#3B413C;
+}
+
+#academic{
+	background-color:#3B413C;
+	color:#94D1BE;
+}
+
+#interest{
+	background-color:#DAF0EE;
+	color:#3B413C;
+}
+
+.my-box{
+	background-color:#94D1BE;
+    min-height: 300px;
+    margin:2px;
+    padding:20px;
+    border: 3px solid #3B413C;
+    box-shadow: 5px 5px 20px grey;
+}
+
+footer{
+	min-height:25%;
+	background-color:#3B413C;
+	color:white;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
